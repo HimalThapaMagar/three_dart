@@ -15,7 +15,7 @@ dependencies:
   image: ^3.1.1
   crypto: ^3.0.1
   flutter_gl: ^0.0.21
-  three_dart_jsm: ^0.0.9
+  three_dart_jsm: ^0.0.10
 
   meta:
   
