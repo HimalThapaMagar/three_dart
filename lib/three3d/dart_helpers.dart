@@ -19,7 +19,7 @@ dynamic or(value, defaultValue) => falsey(value)
         : defaultValue
     : value;
 
-bool falsey(value) => value == null || value == false || value == '' || value == 0 || value == double.nan;
+bool falsey(value) => value == null || value == false || value == '' || value == 0 || value.isNaN;
 
 bool truthy(value) => !falsey(value);
 

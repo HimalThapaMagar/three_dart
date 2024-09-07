@@ -878,10 +878,10 @@ class Object3D with EventDispatcher {
   }
 
   void dispose() {
-    matrix?.dispose();
-    matrixWorld?.dispose();
-    modelViewMatrix?.dispose();
-    normalMatrix?.dispose();
+    matrix.dispose();
+    matrixWorld.dispose();
+    modelViewMatrix.dispose();
+    normalMatrix.dispose();
     bindMatrix?.dispose();
   }
 }

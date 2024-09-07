@@ -823,7 +823,7 @@ class HalfEdge {
 
   VertexNode head() => vertex;
 
-  VertexNode? tail() => prev != null ? prev!.vertex : null;
+  VertexNode? tail() => prev?.vertex;
 
   num length() {
     var head = this.head();
